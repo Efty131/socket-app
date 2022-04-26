@@ -18,5 +18,5 @@ app.get('/', function (req,res){
         res.sendFile(__dirname + "/index.html");
 });
 expressServer.listen(3000,function(){
-    console.log("Server run at 3000");
+    console.log("Server is running at 3000");
 });
